@@ -1,0 +1,11 @@
+/.htaccess
+/cache/*
+/classes/*
+/config/*
+/controllers/*
+/css/*
+/log/*
+/tmp/*
+/upload/*
+/img/p/*
+cache/*
