@@ -1,7 +1,7 @@
 # prestashop-rsync-exclude
 Prestashop rsync exclude
 
-Exclude files for Prestashop >= 1.5 without product images and htaccess
+Exclude files for Prestashop >= 1.5 without config, cache, product images and htaccess
 
 Cmd : 
 //To dev
@@ -9,3 +9,5 @@ rsync -Haurov --exclude-from '/path/to/local/exclude/file/rsync-exclude'  remote
 
 //To serv
 rsync -Haurov --exclude-from '/path/to/local/exclude/file/rsync-exclude' /path/to/local/pestashop/ remoteServUserName@xx.xx.xx.xx:/path/to/remote/prestashop/
+
+NB : This is not for initial commit, just for update
